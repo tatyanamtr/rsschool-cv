@@ -1,0 +1,56 @@
+html {
+	max-width: 800px;
+	margin: 0 auto;
+}
+header {
+	display: flex;
+	flex-direction: row;
+}
+header ul {
+	list-style-type: none;
+	padding-inline-start: 0;
+	line-height: 2;
+}
+.picture {
+	padding: 30px;
+}
+.picture img {
+	width: 300px;
+	
+}
+.about-me {
+	padding: 40px;
+}
+main {
+	padding: 0 40px;
+}
+main h2 {
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 50px;
+	text-decoration: underline;
+}
+main ul {
+	display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 160px;
+}
+.certificates {
+	display: flex;
+}
+.certificates img {
+	width: 300px;
+}
+figcaption {
+	text-align: center;
+}
+
+
+footer {
+	text-align: center;
+	margin: 40px auto;
+}
+footer img {
+	width: 100px;
+}
